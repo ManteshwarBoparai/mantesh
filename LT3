@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Favorite Football Players</title>
+    <style>
+        body {
+            background-color: #1E3A8A;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 { padding-top: 20px; }
+        h2.top-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #FFD700; /* Gold color for the top title */
+        }
+        .player-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* 5 columns */
+            gap: 20px; /* Space between the items */
+            padding: 20px;
+        }
+        .player {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        h2 { font-size: 18px; margin: 10px 0 5px; }
+        p { font-size: 14px; }
+        .ranking {
+            font-size: 24px;
+            font-weight: bold;
+            color: #FFD700; /* Gold color for ranking */
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Top 10 Favorite Football Players</h1>
+    <h2 class="top-title">Top 1 to 10</h2> <!-- Added title for Top 1 to 10 -->
+    <div class="player-list">
+        <div class="player">
+            <div class="ranking">1</div>
+            <img src="https://example.com/messi.jpg" alt="Lionel Messi">
+            <h2>Lionel Messi</h2>
+            <p>Argentine forward, all-time great.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">2</div>
+            <img src="https://example.com/ronaldo.jpg" alt="Cristiano Ronaldo">
+            <h2>Cristiano Ronaldo</h2>
+            <p>Portuguese forward, prolific scorer.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">3</div>
+            <img src="https://example.com/neymar.jpg" alt="Neymar Jr.">
+            <h2>Neymar Jr.</h2>
+            <p>Brazilian forward, skillful dribbler.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">4</div>
+            <img src="https://example.com/mbappe.jpg" alt="Kylian Mbappé">
+            <h2>Kylian Mbappé</h2>
+            <p>French forward, fast and talented.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">5</div>
+            <img src="https://example.com/salah.jpg" alt="Mohamed Salah">
+            <h2>Mohamed Salah</h2>
+            <p>Egyptian forward, amazing dribbler.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">6</div>
+            <img src="https://example.com/debruyne.jpg" alt="Kevin De Bruyne">
+            <h2>Kevin De Bruyne</h2>
+            <p>Belgian midfielder, master of passes.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">7</div>
+            <img src="https://example.com/lewandowski.jpg" alt="Robert Lewandowski">
+            <h2>Robert Lewandowski</h2>
+            <p>Polish striker, goal machine.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">8</div>
+            <img src="https://example.com/virgil.jpg" alt="Virgil van Dijk">
+            <h2>Virgil van Dijk</h2>
+            <p>Dutch defender, solid at the back.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">9</div>
+            <img src="https://example.com/ramos.jpg" alt="Sergio Ramos">
+            <h2>Sergio Ramos</h2>
+            <p>Spanish defender, defensive leader.</p>
+        </div>
+        <div class="player">
+            <div class="ranking">10</div>
+            <img src="https://example.com/hazard.jpg" alt="Eden Hazard">
+            <h2>Eden Hazard</h2>
+            <p>Belgian winger, creative playmaker.</p>
+        </div>
+    </div>
+</body>
+</html>
